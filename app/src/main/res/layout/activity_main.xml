@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".view.activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txvTimerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="300"
+        android:textColor="@color/transparentWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartID"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="110dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:id="@+id/txvAvgID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/oval"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="average"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txvAvgTitleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="AVERAGE TREMOR"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnBackID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorBackground"
+        android:text="back"
+        android:textColor="@color/orange"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnStartID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="320dp"
+        android:background="@color/colorBackground"
+        android:text="Start"
+        android:textColor="@color/transparentWhite"
+        android:textSize="36sp" />
+
+    <ProgressBar
+        android:id="@+id/prgID"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/veryHighID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="510dp"
+        android:text="Muy rapido \n intenta tomar aire"
+        android:textColor="@color/progressBarRed"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/highID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="510dp"
+        android:text="Rapido\nbuena carrera"
+        android:textColor="@color/progressBarOrange"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lowID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="180dp"
+        android:text="Lento\ntu puedes"
+        android:textColor="@color/progressBarYellow"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/veryLowID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="22dp"
+        android:text="Muy lento\nNo te rindas"
+        android:textColor="@color/progressBarGreen"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txvLastMeasID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:text="Last measurment: 0"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

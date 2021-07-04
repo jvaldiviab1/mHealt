@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056886075360",
+    "project_id": "mhealt-3c88f",
+    "storage_bucket": "mhealt-3c88f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056886075360:android:070d191ced72fe2c7c0585",
+        "android_client_info": {
+          "package_name": "com.platform.mhealt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056886075360-uc4vkb7a0hf31k8nop0kmgjmfm2lf974.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.platform.mhealt",
+            "certificate_hash": "101d2aaca5d7bac1922164a6b8f7a30ca3c60e7a"
+          }
+        },
+        {
+          "client_id": "1056886075360-vr9u2itr0melktmng404ao6uhe9l6mlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTQIgHmepJAu6GA74yJZbxnCKUMq7JlU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056886075360-vr9u2itr0melktmng404ao6uhe9l6mlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

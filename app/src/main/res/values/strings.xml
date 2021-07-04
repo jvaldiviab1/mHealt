@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mHealt</string>
+    <string name="title_activity_base">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="web_client_id">1056886075360-vr9u2itr0melktmng404ao6uhe9l6mlt.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
